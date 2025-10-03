@@ -70,15 +70,19 @@ article {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: 1fr;
+
 }
 
 #bio {
   display: flex;
+  flex-direction: column;
   align-items: left;
   justify-content: left;
 
   grid-column: 1;
-  grid-row: 1
+  grid-row: 1;
+
+  font-size: 28px;
 }
 
 #pictures {
