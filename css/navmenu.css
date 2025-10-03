@@ -19,6 +19,7 @@ nav > #nav-list {
 }
 
 #nav-list > li > a {
+  font-size: 22px;
   color: white;
   text-decoration: none;
   text-align: center;
