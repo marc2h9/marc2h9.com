@@ -65,3 +65,27 @@ header > .header-title > h1 > span {
 header > img {
   border-radius: 100%;
 }
+
+article {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 1fr;
+}
+
+#bio {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+
+  grid-column: 1;
+  grid-row: 1
+}
+
+#pictures {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+
+  grid-column: 2;
+  grid-row: 1;
+}
