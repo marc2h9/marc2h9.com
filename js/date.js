@@ -10,7 +10,7 @@ function setLocalTime() {
   if (clock == null) { return; }
 
   // Setting clock time
-  let currentTime = luxon.DateTime.now().setZone("Europe/Amsterdam").toFormat("hh:mm:ss ZZZZ");
+  let currentTime = luxon.DateTime.local().setZone("Europe/Amsterdam").toFormat("hh:mm:ss ZZZZ");
   clock.innerText = currentTime;
 }
 
