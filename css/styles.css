@@ -1,5 +1,17 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+
+    animation: show-website 500ms ease-in;
+}
+
+@keyframes show-website {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 body {
